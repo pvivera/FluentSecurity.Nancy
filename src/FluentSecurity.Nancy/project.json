@@ -1,12 +1,21 @@
 ﻿{
-  "version": "0.0.1",
+    "version": "0.0.1",
 
-  "dependencies": {
-    "NETStandard.Library": "1.6.0"
-  },
+    "dependencies": {
+        "Nancy": {
+            "version": "*",
+            "type": "build"
+        },
+        "NETStandard.Library": "1.6.0"
+    },
 
-  "frameworks": {
-    "net45": {},
-    "net461": {}
-  }
+    "frameworks": {
+        "net452": {},
+        "netstandard1.6": {
+            "imports": [
+                "dotnet5.4",
+                "portable-net451+win8"
+            ]
+        }
+    }
 }
