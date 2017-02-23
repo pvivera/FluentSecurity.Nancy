@@ -2,9 +2,7 @@
 	"version": "0.0.1",
 
 	"dependencies": {
-		"Nancy": {
-			"target": "project"
-		},
+		"Nancy": "2.0.0-clinteastwood",
 		"NETStandard.Library": "1.6.0"
 	},
 

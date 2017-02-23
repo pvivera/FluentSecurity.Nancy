@@ -13,9 +13,7 @@
 		"FluentSecurity.Nancy": {
 			"target": "project"
 		},
-		"Nancy": {
-			"target": "project"
-		}
+		"Nancy": "2.0.0-clinteastwood"
 	},
 
 	"frameworks": {
