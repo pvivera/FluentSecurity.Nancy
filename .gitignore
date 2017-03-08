@@ -1,6 +1,3 @@
-
-# Created by https://www.gitignore.io/api/visualstudio,visualstudiocode
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -285,4 +282,4 @@ __pycache__/
 # tools/**
 # !tools/packages.config
 
-# End of https://www.gitignore.io/api/visualstudio,visualstudiocode
+.paket/paket.exe
