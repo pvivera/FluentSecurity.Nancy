@@ -1,6 +1,0 @@
-NUGET
-  remote: https://www.nuget.org/api/v2
-    NuGet.CommandLine (3.5)
-GITHUB
-  remote: kristofferahl/FluentSecurity
-    FULLPROJECT (8bb51c72228fb7913d9e47200b8fa7e54c844dd7)

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{D666EEF0-1043-44C6-99D0-3FEDA435242C}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,15 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{D666EE
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0DE6426-BD88-4FE9-9107-648514A92E20}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CED210F3-BDF5-4DC6-994D-A906FDB043E8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentSecurity.Nancy", "src\FluentSecurity.Nancy\FluentSecurity.Nancy.xproj", "{FDFB5D71-C773-4A77-9C3E-72A3CF3690DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentSecurity.Nancy", "src\FluentSecurity.Nancy\FluentSecurity.Nancy.csproj", "{FDFB5D71-C773-4A77-9C3E-72A3CF3690DB}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentSecurity.Nancy.Sample", "src\FluentSecurity.Nancy.Sample\FluentSecurity.Nancy.Sample.xproj", "{F5977502-300E-4959-A007-3A200FAEE140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentSecurity.Nancy.Sample", "src\FluentSecurity.Nancy.Sample\FluentSecurity.Nancy.Sample.csproj", "{F5977502-300E-4959-A007-3A200FAEE140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D4FA95B7-C144-4D5C-9005-4C6C1E7C6017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +38,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FDFB5D71-C773-4A77-9C3E-72A3CF3690DB} = {CED210F3-BDF5-4DC6-994D-A906FDB043E8}
-		{F5977502-300E-4959-A007-3A200FAEE140} = {CED210F3-BDF5-4DC6-994D-A906FDB043E8}
+		{F5977502-300E-4959-A007-3A200FAEE140} = {D4FA95B7-C144-4D5C-9005-4C6C1E7C6017}
 	EndGlobalSection
 EndGlobal
